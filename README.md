@@ -21,20 +21,27 @@ Implementing google captcha  in a simple login form designed in java, jsp/servle
 1.  Create an Dynamic Web application in eclipse
 ![image](https://user-images.githubusercontent.com/62290469/235714023-6c710224-1923-4a0d-8378-034686aa47d7.png)
 
+
 2.  give the project name and select the tomcate  & jdk version
 ![image](https://user-images.githubusercontent.com/62290469/235715454-ddd14d2c-3194-4788-b04b-0c6c3b013e43.png)
+
 
 4.  convert into maven project 
 ![image](https://user-images.githubusercontent.com/62290469/235716931-c27ae17c-7281-497d-a56f-b07e482ce9bd.png)
 
+
 5.  POM wizard just keep as default 
 ![image](https://user-images.githubusercontent.com/62290469/235717497-16c37c3b-93bc-42c2-ad70-a08ece3f5884.png)
+
 
 6.  Create login processing servlet
 ![image](https://user-images.githubusercontent.com/62290469/235719301-5ff66210-040c-4c3c-83a6-2b669a6f9c22.png)
 
+
 7.  Give the package name and servlet name 
 ![image](https://user-images.githubusercontent.com/62290469/235719810-ace6eab8-81e0-49fe-8f66-c059e013bdb9.png)
+
 8.  Create a class to verify the captcha
 ![image](https://user-images.githubusercontent.com/62290469/235721265-87dd900d-eeba-4695-812f-f7f534d0c2ef.png)
+
 
