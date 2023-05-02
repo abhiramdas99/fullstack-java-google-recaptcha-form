@@ -25,9 +25,9 @@ public class LoginProcessingServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response, String msg) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().append("Served at: ").append(msg);
 	}
 
 	/**
@@ -35,7 +35,10 @@ public class LoginProcessingServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		String gRecaptchaResponse= request.getParameter("g-recaptcha-response");
+		boolean verifyCaptcha=VerifyCaptcha.verifyByGoogleApi(gRecaptchaResponse);
+		String msg=verifyCaptcha?"Validate Captcha successfully":"Captcha Validation not completed";		
+		doGet(request, response,msg);
 	}
 
 }
