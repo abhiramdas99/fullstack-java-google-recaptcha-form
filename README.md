@@ -1,6 +1,7 @@
 # fullstack-java-google-recaptcha-form
 Implementing google captcha  in a simple login form designed in java, jsp/servlet
 
+# STEP 1 : Create an api in google to generate reCaptcha and validation
 1.  open  https://www.google.com/recaptcha/admin/create
 ![image](https://user-images.githubusercontent.com/62290469/235706210-52a143c1-c5d2-4286-84e9-2884673ab0a0.png)
 
@@ -13,6 +14,8 @@ Implementing google captcha  in a simple login form designed in java, jsp/servle
 4.  Submit
 ![image](https://user-images.githubusercontent.com/62290469/235709232-a11c6ce7-ba00-4ce9-ad73-d023fa84fa31.png)
 
+5.  copy the secret key  to noteapd 
+![image](https://user-images.githubusercontent.com/62290469/235711600-208eba22-764c-48e7-968e-44d6515afc62.png)
 
-
+# STEP 2 : Create java applicaton 
 
