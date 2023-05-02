@@ -35,3 +35,6 @@ Implementing google captcha  in a simple login form designed in java, jsp/servle
 
 7.  Give the package name and servlet name 
 ![image](https://user-images.githubusercontent.com/62290469/235719810-ace6eab8-81e0-49fe-8f66-c059e013bdb9.png)
+8.  Create a class to verify the captcha
+![image](https://user-images.githubusercontent.com/62290469/235721265-87dd900d-eeba-4695-812f-f7f534d0c2ef.png)
+
