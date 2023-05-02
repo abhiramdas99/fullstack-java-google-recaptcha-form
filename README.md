@@ -26,3 +26,12 @@ Implementing google captcha  in a simple login form designed in java, jsp/servle
 
 4.  convert into maven project 
 ![image](https://user-images.githubusercontent.com/62290469/235716931-c27ae17c-7281-497d-a56f-b07e482ce9bd.png)
+
+5.  POM wizard just keep as default 
+![image](https://user-images.githubusercontent.com/62290469/235717497-16c37c3b-93bc-42c2-ad70-a08ece3f5884.png)
+
+6.  Create login processing servlet
+![image](https://user-images.githubusercontent.com/62290469/235719301-5ff66210-040c-4c3c-83a6-2b669a6f9c22.png)
+
+7.  Give the package name and servlet name 
+![image](https://user-images.githubusercontent.com/62290469/235719810-ace6eab8-81e0-49fe-8f66-c059e013bdb9.png)
